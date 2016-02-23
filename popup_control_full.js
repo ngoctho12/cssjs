@@ -117,7 +117,7 @@ $(window).load(function() {
 			$(divpopup).attr('id', 'myModal');
 			$(divpopup).attr('class', 'linhnguyen-modal');
 			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='http://aodongphuclop.net/gia-thong-tin-ao-dong-phuc-lop/' target='_blank'><img src='http://aodongphuclop.net/kcfinder/upload/images/mau-ao-dong-phuc-lop-4-mau-in.jpg' width='500px'/>Đào tạo seo chuyên sâu</a>. Học tại nhà Linh Nguyễn. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			$("#myModal").html("<a href='http://aodongphuclop.net/gia-thong-tin-ao-dong-phuc-lop/' target='_blank'><img src='http://aodongphuclop.net/kcfinder/upload/images/mau-ao-dong-phuc-lop-4-mau-in.jpg' width='500px'/>Mẫu áo đồng phục lớp mới nhất</a>. Tại áo đồng phục lớp. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			$('#myModal').linhnguyen($('#myModal').data());
 		}
 });
