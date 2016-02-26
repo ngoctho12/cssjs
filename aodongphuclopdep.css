@@ -1,0 +1,190 @@
+<!--
+/*
+Theme Name       : Minima Colored 3 Mag Style
+Theme Published  : 16 July 2014
+Theme Updated    : 19 December 2014
+Theme Base Color : White and Blue
+Theme Designer   : Arlina Design
+Designer URL     : http://arlinadesign.blogspot.com
+Theme License    : This free Blogger template is licensed under the Creative Commons Attribution 3.0 License, which permits both personal and commercial use.
+However, to satisfy the &#39;attribution&#39; clause of the license, you are required to keep the footer links intact which provides due credit to its authors. For more specific details about the license, you may visit the URL below:
+http://creativecommons.org/licenses/by/3.0/
+Many Thanks To   :
+- http://www.sweethemes.com
+- http://www.dte.web.id
+- http://blog.kangismet.net
+- http://www.kompiajaib.com
+- http://ngudang.blogspot.com
+*/
+/* CSS Reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+/* CSS HTML5 */
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}body{line-height:1;display:block;}*{margin:0;padding:0;}html{display:block;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{background:transparent;}table{border-collapse:collapse;border-spacing:0;}
+/* CSS Framework */
+.navbar,.post-feeds,.feed-links{display:none;}
+.section,.widget{margin:0 0 0 0;padding:0 0 0 0;}
+strong,b{font-weight:bold;padding: 0 0.25em;-webkit-transition: color 0.2s;transition: color 0.2s;}
+strong,b:hover{left:-0.1em;content: '[';-webkit-transform: translateX(-100%);transform: translateX(-100%);}
+cite,em,i{font-style:italic;}
+a:link{color:#4791d2;text-decoration:none;outline:none;transition:all 0.25s;}
+a:visited{color:#637182;text-decoration:none;}
+a:link:hover{color:#444;text-decoration:none;}
+a:visited:hover{color:#444;text-decoration:none;}
+a img{border:none;border-width:0;outline:none;}
+img{max-width:100%;vertical-align:middle;border:0;}
+abbr,acronym{border-bottom:1px dotted;cursor:help;}
+sup,sub{vertical-align:baseline;position:relative;top:-.4em;font-size:86%;}
+sub{top:.4em;}small{font-size:86%;}
+kbd{font-size:80%;border:1px solid #b4babe;padding:2px 5px;border-bottom-width:2px;}
+mark{background-color:#ffce00;color:#182025;}
+p,blockquote,pre,table,figure,hr,form,ol,ul,dl{margin:1.5em 0;}
+hr{height:1px;border:none;background-color:#444;}
+/* CSS Blog Heading */
+h1,h2,h3,h4,h5,h6{font-weight:700;line-height:normal;margin:0 0 0.6em;}
+h1{font-size:200%}
+h2{font-size:180%}
+h3{font-size:160%}
+h4{font-size:140%}
+h5{font-size:120%}
+h6{font-size:100%}
+/* CSS Form */
+input,button,select,textarea{font-size:100%;line-height:normal;vertical-align:baseline;}
+textarea{display:block;box-sizing:border-box;}
+pre,code{font-family:'Roboto Condensed';color:#444;}
+pre{white-space:pre;word-wrap:normal;overflow:auto;}
+blockquote{margin-left:0;padding:15px;background:lightyellow;border:1px solid #d8d8be;font-style:italic;font-family:Georgia;}
+blockquote:before{content:'\f10d';display:inline-block;font-family:FontAwesome;font-style:normal;font-weight:400;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;margin-right:10px;color:#999985}
+blockquote:after{content:'\f10e';display:inline-block;font-family:FontAwesome;font-style:normal;font-weight:400;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;margin-left:10px;color:#999985}
+/* CSS List */
+ul,dl{margin:.5em 0em .5em 3em}
+ol{list-style:decimal outside}
+ul{list-style-position:inside;font-weight:700;list-style:none;}
+li{margin:.5em 0}
+dt{font-weight:bold}
+dd{margin:0 0 .5em 2em}
+/* CSS List Custom */
+.post ul li span{position:relative;display:block;padding:5px 8px;margin-bottom:10px;background:#fff;color:#666;text-decoration:none;transition:all .3s ease-out;}
+.post ul li span:hover{background:#fff;}
+ol {counter-reset:li;list-style: none;font:15px 'Roboto Condensed', 'lucida sans';
+padding:0;margin-bottom:4em;text-shadow: 0 1px 0 rgba(255,255,255,.5);}
+ol ol {margin: 0 0 0 2em;}
+.post ol li{position:relative;display:block;padding:.4em .4em .4em .8em;
+margin:.5em 0 .5em 2.5em;background:#fff;color:#666;text-decoration:none;
+transition:all .3s ease-out;}
+.post ol li:before {content:counter(li);counter-increment:li;position:absolute;left:-2.5em;
+top:50%;margin-top:-1em;height:2em;width:2em;line-height:2em;text-align:center;}
+/* CSS Post Table */
+.post-body table th, .post-body table td, .post-body table caption{border:1px solid #d8dde1;padding:.2em .5em;text-align:left;vertical-align:top;}
+.post-body table.tr-caption-container {border:1px solid #d8dde1;}
+.post-body th{font-weight:700;}
+.post-body table caption{border:none;font-style:italic;}
+.post-body table{}
+.post-body td, .post-body th{vertical-align:top;text-align:left;font-size:13px;padding:3px 5px;border:1px solid #d8dde1;}
+.post-body th{background:#ecf0f1;}
+.post-body table.tr-caption-container td {border:none;padding:8px;}
+.post-body table.tr-caption-container, .post-body table.tr-caption-container img, .post-body img {max-width:100%;height:auto;}
+.post-body td.tr-caption {color:#666;font-size:80%;padding:0px 8px 8px !important;}
+img {max-width:100%;height:auto;border:none;}
+table {max-width:100%;width:100%;margin:1.5em auto;}
+table.section-columns td.first.columns-cell{border-left:none}
+table.section-columns{border:none;table-layout:fixed;width:100%;position:relative}
+table.columns-2 td.columns-cell{width:50%}
+table.columns-3 td.columns-cell{width:33.33%}
+table.columns-4 td.columns-cell{width:25%}
+table.section-columns td.columns-cell{vertical-align:top}
+table.tr-caption-container{padding:4px;margin-bottom:.5em}
+td.tr-caption{font-size:80%}
+::-moz-selection{background-color:#4791d2;color:#fff}
+.widget ul {padding:0;}
+/* CSS Post Layout */
+body {background:#e7e8e9 url(http://1.bp.blogspot.com/-_6UiHnbgHx0/VJnEaIURkII/AAAAAAAAILM/mqqlv9TVlNw/s1600/backg.png) repeat fixed;margin:0 0 0 0;padding:0 0 0 0;color:#444;font-family:'Roboto Condensed';font-size:13px;font-weight:400;text-align:left;}
+body#layout #outer-wrapper, body#layout .post-inner, body#layout .sidebar, body#layout .sidebar2 {padding:0 0 0 0;}
+body#layout .top-tab-widget-menu ul {display:none;}
+body#layout #wrapper, body#layout .post-inner, body#layout .sidebar-inner {padding:0 0 0 0;}
+body#layout .tably {float:left;width:79px;}
+body#layout .header-wrapper {margin-top:0;}
+body#layout #navigation {float:left;width:100%;}
+body#layout .tably {float:left;width:100%;}
+body#layout #header-wrapper {min-height:0px;width:100%;}
+body#layout #header {width:30%;}
+body#layout #header-right {width:70%;}
+.ct-wrapper {margin:0;padding:0;}
+.clear {clear:both;}
+.clear:after {visibility:hidden;display:block;font-size:0;content:" ";clear:both;
+height:0;}
+#navbar-iframe {display:none!important;}
+header,nav,section,aside,article,footer {display:block;}
+form.searchform {margin:0;}
+body#layout #tably-1, body#layout #tably-2, body#layout #tably-3 {width:33.3%;float:left;}
+/* CSS Global Wrapper */
+.ct-wrapper {padding:0 20px;position:relative;max-width:1024px;margin:0 auto;}
+#header {float:left;width:100%;max-width:257px;}
+.header-right {float:right;padding:0;overflow:hidden;margin:0;width:100%;
+max-width:728px;}
+.header-wrapper2 {position:relative;z-index:999;}
+#sidebar-wrapper {float:right;width:30%;margin:0 auto;}
+.sidebar-inner {padding:15px 0;}
+#footer-wrapper {width:100%;text-align:left;overflow:hidden;margin:20px 0px 0px 0px}
+#footer-widgetfix .footer-widget {width:30.6%;float:left;margin-left:20px;}
+#footer-widgetfix {max-width:1100px;overflow:hidden;margin:0 auto;}
+#footer-wrapper .widget-content {text-align:left;margin:20px 0 15px;}
+#footer-wrapper .widget-content li {margin-left:-14px;}
+#footer-wrapper .widget li {margin:5px 0 0 0;padding:5px 0 0 15px;display:block;}
+.footer-bottom {min-height:40px;}
+#footx1,#footx2,#footx3 {margin:0 .2%}
+.footer {padding-bottom:.2em;}
+.ads-in-post{display:none}
+.post-body .ads-in-post{display:inline-block;line-height:0}
+.ads-post{margin:15px auto;line-height:0}
+/*------------ MENU -------------*/
+li#searchboxbswright { float: right !important }
+.search-box { position: relative; width: 100%; margin: 0; padding: 0; height: 46px; line-height: 46px }
+.search-form {margin:0; width: 313px; background: none; overflow: hidden }
+.search-box input[type="text"] { width: 90%; padding: 13px; color: #666; font-family: 'Roboto Condensed', sans-serif; font-weight: 400; outline: none }
+.search-text { font-size: 14px; color: #fff; border-width: 0; background: transparent }
+.search-button { font-family: 'Roboto Condensed', sans-serif; font-weight: 400; position: absolute; top: 0; right: 0; width: 50px; padding: 13.5px; font-size: 100%; color: #666; text-align: center; border-width: 0; cursor: pointer; background: none; outline: none }
+button { background: #1AAB8A; color: #fff; border: none; position: relative; font: 300 16px Roboto, sans-serif; padding: 10px 20px; cursor: pointer; transition: 800ms ease all; outline: none }
+button:before, button:after { content: ''; position: absolute; top: 0; right: 0; height: 2px; width: 0; background: #1AAB8A; transition: 400ms ease all }
+button:after { right: inherit; top: inherit; left: 0; bottom: 0 }
+.fa-search:before { content: "\f002" }
+/*-------- Bắt đầu Stick Nav -------*/
+nav { background: #ffffff; height: 30px; width: 100%; margin-right: 0; margin-left: 0; left: 0; right: 0; position: relative; z-index: 9999 }
+.fixed { position: fixed }
+/*-------- Kết thúc Stick Nav -------*/
+#cssmenu, #cssmenu ul, #cssmenu ul li, #cssmenu ul li a, #cssmenu #menu-button { margin: 0; padding: 0; border: 0; list-style: none; line-height: 1; display: block; position: relative; box-sizing: border-box }
+#cssmenu:after, #cssmenu > ul:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0 }
+#cssmenu #menu-button { display: none }
+#cssmenu {font-family: "Roboto Condensed",arial; opacity: 0.9; width: auto; line-height: 1; background: #ffffff; z-index: 999; border: 1px solid #ccc }
+#cssmenu ul {  margin: auto }
+#cssmenu a.home {background: #00C0EF url(http://1.bp.blogspot.com/--gSKLp3hWCM/VpcNEnKVEHI/AAAAAAAAECQ/pWIjlmsjHXk/s1600/home.png) !important; background-repeat: no-repeat !important; background-position: center -43px !important; text-indent: -9999px; width: 52px; height: 46px }
+#cssmenu a.home:hover {transition: color 1.2s ease; background-position: center 10px !important }
+#menu-line { display: none }
+#cssmenu > ul > li { float: left }
+#cssmenu.align-center > ul { font-size: 0; text-align: center }
+#cssmenu.align-center > ul > li { display: inline-block; float: none }
+#cssmenu.align-center ul ul { text-align: left }
+#cssmenu.align-right > ul > li { float: right }
+#cssmenu.align-right ul ul { text-align: right }
+#cssmenu > ul > li > a { padding: 16px 20px 15px; font-size: 15px; text-decoration: none; text-transform: uppercase; color: #000000; -webkit-transition: color .2s ease; -moz-transition: color .2s ease; -ms-transition: color .2s ease; -o-transition: color .2s ease; transition: color .2s ease }
+#cssmenu > ul > li:hover > a, #cssmenu > ul > li.active > a { color: #F88C00; background: #333 }
+#cssmenu > ul > li.has-sub > a { padding-right: 25px }
+#cssmenu > ul > li.has-sub > a::after { position: absolute; top: 17px; right: 10px; width: 6px; height: 6px; border-bottom: 1px solid #000000; border-right: 1px solid #000000; content: ""; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); -webkit-transition: border-color 0.2s ease; -moz-transition: border-color 0.2s ease; -ms-transition: border-color 0.2s ease; -o-transition: border-color 0.2s ease; transition: border-color 0.2s ease }
+#cssmenu > ul > li.has-sub:hover > a::after { border-color: #F88C00 }
+#cssmenu ul ul { position: absolute; left: -9999px }
+#cssmenu li:hover > ul { left: auto }
+#cssmenu.align-right li:hover > ul { right: 0 }
+#cssmenu ul ul ul { margin-left: 100%; top: 0 }
+#cssmenu.align-right ul ul ul { margin-left: 0; margin-right: 100% }
+#cssmenu ul ul li { height: 0; -webkit-transition: height .2s ease; -moz-transition: height .2s ease; -ms-transition: height .2s ease; -o-transition: height .2s ease; transition: height .2s ease }
+#cssmenu ul li:hover > ul > li { height: 32px }
+#cssmenu ul ul li a { padding: 10px 20px; width: 160px; font-size: 12px; background: #333333; text-decoration: none; color: #dddddd; -webkit-transition: color .2s ease; -moz-transition: color .2s ease; -ms-transition: color .2s ease; -o-transition: color .2s ease; transition: color .2s ease }
+#cssmenu ul ul li:hover > a, #cssmenu ul ul li a:hover { color: #ffffff }
+#cssmenu ul ul li.has-sub > a::after { position: absolute; top: 13px; right: 10px; width: 4px; height: 4px; border-bottom: 1px solid #dddddd; border-right: 1px solid #dddddd; content: ""; -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); -webkit-transition: border-color 0.2s ease; -moz-transition: border-color 0.2s ease; -ms-transition: border-color 0.2s ease; -o-transition: border-color 0.2s ease; transition: border-color 0.2s ease }
+#cssmenu.align-right ul ul li.has-sub > a::after { right: auto; left: 10px; border-bottom: 0; border-right: 0; border-top: 1px solid #dddddd; border-left: 1px solid #dddddd }
+#cssmenu ul ul li.has-sub:hover > a::after { border-color: #ffffff }
+.khung-tim-kiem {display:none}
+@media all and (max-width: 786px) {
+.khung-tim-kiem{margin-top: 24px; display:block;border-bottom: 1px solid #ccc;}
+#cssmenu #searchboxbswright{display:none}
+#cssmenu { width: 100%;border: 0;     border-bottom: 1px solid #ccc} #cssmenu ul { width: 100%; display: none } #cssmenu.align-center > ul, #cssmenu.align-right ul ul { text-align: left } #cssmenu ul li, #cssmenu ul ul li, #cssmenu ul li:hover > ul > li { width: 100%; height: auto; border-top: 1px solid rgba(120,  120,  120,  0.15) } #cssmenu ul li a, #cssmenu ul ul li a { width: 100% } #cssmenu > ul > li, #cssmenu.align-center > ul > li, #cssmenu.align-right > ul > li { float: none; display: block } #cssmenu ul ul li a { padding: 17px 20px 17px 30px; font-size: 12px; color: #000000; background: none } #cssmenu ul ul li:hover > a, #cssmenu ul ul li a:hover { color: #000000 } #cssmenu ul ul ul li a { padding-left: 40px } #cssmenu ul ul, #cssmenu ul ul ul { position: relative; left: 0; right: auto; width: 100%; margin: 0 } #cssmenu > ul > li.has-sub > a::after, #cssmenu ul ul li.has-sub > a::after { display: none } #menu-line { display: none } #cssmenu #menu-button { display: block; padding: 20px; color: #000000; cursor: pointer; font-size: 12px; text-transform: uppercase } #cssmenu #menu-button::after { content: ''; position: absolute; top: 20px; right: 20px; display: block; width: 20px; height: 3px; background: #000000 } #cssmenu #menu-button::before { content: ''; position: absolute; top: 25px; right: 20px; display: block; width: 20px; height: 2px; border-top: 3px solid #000000; border-bottom: 3px solid #000000 } #cssmenu .submenu-button { position: absolute; z-index: 10; right: 0; top: 0; display: block; border-left: 1px solid rgba(120,  120,  120,  0.15); height: 46px; width: 52px; cursor: pointer } #cssmenu .submenu-button::after { content: ''; position: absolute; top: 17px; left: 26px; display: block; width: 1px; height: 11px; background: #000000; z-index: 99 } #cssmenu .submenu-button::before { content: ''; position: absolute; left: 21px; top: 22px; display: block; width: 11px; height: 1px; background: #000000; z-index: 99 } #cssmenu .submenu-button.submenu-opened:after { display: none }
+}
