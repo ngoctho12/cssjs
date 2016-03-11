@@ -1,0 +1,30 @@
+
+/*-----------------------------------------------
+Blogger Template Style
+Name:    Codify
+Date:   27 / September / 2013
+Author: Templateify
+License: Free Version
+URL: http://www.templateify.com
+----------------------------------------------- */
+
+body#layout .logo {width:300px;margin-top:22px;float: left;}
+body#layout ul, li, a {list-style:none;}
+body#layout #primary {width: 518px;float: left;}
+body#layout #secondary {float: right;width: 275px;}
+body#layout #colophon  {height: 550px;}
+body#layout #branding  {padding-top: 20px;padding-bottom: 100px;}
+body#layout .lower  {padding-top: 400px;}
+body#layout .buner  {width: 494px;float:right;margin-top: 22px !important;}
+body#layout #futer1 {width:250px; float:left;}
+body#layout #futer2{width:250px; float:left;}
+body#layout #futer3{width:250px; float:left;}
+
+/*
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Wants to customize? this is free version it will not come with full stylesheet if you want to customize purchase the licensed version of codify from templateify.com
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+
+#futer1, #futer2, #futer3 {width:100%}.comments .avatar-image-container, .comments .avatar-image-container img {width: 48px;max-width: 40px;height: 40px;max-height: 48px;background: #FFF;float: left;border-radius: 50%;-moz-border-radius: 50%;margin: 0 10px 0 0;}#comments .avatar-image-container img {border: 1px solid #ddd;}.comments .comment-thread.inline-thread .avatar-image-container, .comments .comment-thread.inline-thread .avatar-image-container img {width: 36px;max-width: 36px;height: 36px;max-height: 36px;margin-left: 1px;}#comments {background-color: #fff;padding-top: 20px;border-top: 1px solid #ddd;}.comments .comment-block,.comments .comments-content .comment-replies,.comments .comment-replybox-single {margin-left:60px;}.comments .comment-block,.comments .comment-thread.inline-thread .comment {border:1px solid #ddd;background:#fff;background-color:#fff;padding:10px;padding-right:0px;padding-left: 0px;}.comment-header {border-bottom: 1px solid #ddd;padding-bottom: 10px;}.thread-chrome.thread-expanded .comment-header {width: 412px;margin-left: 15px;}.comments .comments-content .comment {width:100%;line-height:1em;font-size:13px;margin:15px 0 0;padding:0;}.comments .comments-content .comment-content {text-align: justify;line-height: 22px;overflow: hidden;}.thread-chrome.thread-expanded .comment-content {width: 380px;line-height: 22px;overflow:hidden}.comments .comment-thread.inline-thread .comment-actions {display: none;}.item-control.blog-admin {display: none;}.comments .comments-content .comment-replies {margin-top:0;}.comments .comment-content {line-height: 1.4em;padding: 15px;}.comments .comment-thread.inline-thread {padding-left: 0px;}.comments .comment-thread.inline-thread .comment {width:auto;}.comments .comment-thread.inline-thread .comment:after {content:"";position:absolute;top:10px;left:-20px;border-top:1px solid #d2d2d2;width:10px;height:0;}.comments .comment-thread.inline-thread .comment .comment-block {border:0;background:transparent;padding:0;}.comments .comment-thread.inline-thread .comment-block {margin-left:48px;}.comments .continue {border-top:0;width:100%;}#comment-editor {width:98%!important;}.comment-form {width:100%;max-width:100%;}#comments h4 {display:inline;line-height:40px;padding:10px;}.comments .continue a {background:#0d86cc;text-align:center;padding:10px 0;display:none;}#comments h4,.comments .continue a {line-height: 30px;margin: 0;padding: 20px 0 14px 10px;font-size: 18px!important;text-transform: uppercase;font-weight: 400!important;color: #444;}.comments .user a {color: #444!important;font-size: 18px;line-height: 25px;text-transform: capitalize;margin-top: 20px;font-weight: 600;padding-left: 15px;}.comments .comments-content .datetime {cursor: pointer;float: right;padding-top: 6px;padding-right: 20px;}.comments .comment-thread.inline-thread .user a {font-size:13px;margin: 0px;padding: 0px;}.comment-actions {background: #33383D;padding: 8px;margin-left: 435px;padding-left: 12px;float: right;margin-top: -19px;margin-right: -1px;}.comment-actions:hover {background: #D24D33;}.comment-thread a {color: #fff;}.comments .comment .comment-actions a:hover {text-decoration: none;}
