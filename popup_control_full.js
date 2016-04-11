@@ -117,7 +117,7 @@ $(window).load(function() {
 			$(divpopup).attr('id', 'myModal');
 			$(divpopup).attr('class', 'linhnguyen-modal');
 			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='http://www.mayaothundongphuc.net/' target='_blank'><img src='https://raw.githubusercontent.com/ngoctho12/hinh/65a4b9a783c3e66762f5e77c6d7a2b26da7abdc5/dong-phuc-nhom-lop-01.jpg' width='500px'/>Mẫu may áo thun đồng phục mới nhất</a>. Tại mayaothundongphuc.net <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			$("#myModal").html("<a href='http://aodongphuclop.net/gia-thong-tin-ao-dong-phuc-lop/' target='_blank'><img src='https://raw.githubusercontent.com/ngoctho12/hinh/master/ao-dong-phuc-lop-1.jpg' width='500px'/>Mẫu may áo đồng phục lớp mới nhất</a>. Tại mayaothundongphuc.net <h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			$('#myModal').linhnguyen($('#myModal').data());
 		}
 });
