@@ -5,4 +5,4 @@
         google.annotations.fetch();
       }
       google.setOnLoadCallback(initialize);
-    document.write(bp_thumbnail_resize(&quot;<data:post.thumbnailUrl/>&quot;,&quot;<data:post.title/>&quot;));
+
