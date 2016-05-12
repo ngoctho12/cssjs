@@ -173,3 +173,33 @@
         window.goog.comments.loadQueue.push(render);
       }
     })();
+var jump=function(e)
+{
+    //alert(&#39;here&#39;);
+   if (e){
+       //e.preventDefault();
+       var target = jQuery(this).attr(&quot;href&quot;).replace(&#39;/&#39;, &#39;&#39;);
+   }else{
+       var target = location.hash;
+   }
+
+   jQuery(&#39;html,body&#39;).animate(
+   {
+       scrollTop: (jQuery(target).offset().top) - 70
+   },3000,function()
+   {
+     //location.hash = target;
+   });
+}
+jQuery(document).ready(function($)
+{
+    $(document).on(&#39;click&#39;, &#39;a[href*=#]&#39;, jump);
+    if (location.hash){
+        setTimeout(function(){
+            $(&#39;html, body&#39;).scrollTop(0).show();
+            jump();
+        }, 0);
+    }else{
+        $(&#39;html, body&#39;).show();
+    }
+});    
