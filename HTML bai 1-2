@@ -42,6 +42,46 @@
                 <li>PHP</li>
                 <li>MySQL</li>
             </ul>
+                 <hr>
+          <!--  <p> Hướng dẫn tạo menu </p>-->
+            <ol type="I">
+                <li>Web tĩnh
+                     <ol type="A">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JS</li>
+                    </ol>
+                </li>
+                <li>Web động
+                     <ul>
+                        <li>PHP</li>
+                        <li>MySQL</li>
+                    </ul>
+                </li>
+            </ol>
+            <hr>
             
+<img src="img/Hydrangeas.jpg" width="200">
+<img src="http://img.f25.kinhdoanh.vnecdn.net/2016/06/24/ckTRWY-1466765727_180x108.jpg" width="200">
+<hr>
+<img src="http://img.khudothimoi.com/images/dulieu/509/ban-do-tphcm-sg-2.jpg" height="500" usemap="#hcm">
+<map name="hcm">
+  <area shape="poly" coords="215,360,225,328,224,305,247,286,287,273,319,274,335,294,351,321,357,337,356,354,321,371,297,379,268,380,243,380,292,345" href="#" title="quận tân phú">
+  <area shape="poly" coords="321,267,353,229,371,206,383,202,428,219,476,243,490,262,478,292,474,312,467,327,430,335,377,339,367,348,396,349,372,348" href="#" title="quan 10">
+  <area shape="poly" coords="167,347,146,274,128,181,87,110,75,71,103,37,173,22,251,15,339,16,411,23,430,31,417,83,391,169,337,245" href="#" quận tân bình>
+  <area shape="poly" coords="388,181,418,188,477,171,527,155,530,119,511,94,486,73,449,62,427,57" href="#" title="quận phú nhuận">
+  <area shape="poly" coords="541,155,602,165,627,187,668,192,692,182,700,143,698,94,688,44,660,17,616,17,561,13,547,19,511,40,489,60" href="#" title="quận bình thạnh">
+  <area shape="poly" coords="384,204,384,184,464,176,511,170,557,208,566,225,541,264,488,313,483,258" href="#" title="quận 3">
+  <area shape="poly" coords="479,324,507,382,547,356,590,319,611,295,625,225,647,199,612,181,560,158,517,161,537,186,566,221" href="#" title="quận 1">
+  <area shape="poly" coords="150,476,154,450,160,399,164,363,174,348,238,362,297,386,316,405,324,429,269,467,226,489" href="#" title="quận 6">
+  <area shape="poly" coords="327,435,374,418,432,414,490,397,505,383,484,334,388,340,330,364,304,380" href="#" title="quận 5">
+  <area shape="poly" coords="509,395,550,394,638,390,681,377,692,354,635,321,605,308" href="#" title="quận 4">
+  <area shape="poly" coords="698,198,687,208,637,232,627,263,630,305,670,337,693,342" href="#" title="quận 2">
+  <area shape="poly" coords="520,407,537,443,544,474,545,483,616,493,683,490,698,482,698,371,698,356" href="#" title="quận 7">
+  <area shape="poly" coords="245,483,308,445,372,430,449,412,495,404,515,405,533,439,540,456,474,478,417,489,248,490" href="#" title="quận 8">
+  <area shape="poly" coords="434,20,441,21,433,46,449,62,483,70,519,44,538,30,538,21" href="#" title="quận gò vấp">
+  <area shape="poly" coords="32,486,153,487,172,385,158,322,143,223,118,161,95,118,79,81,73,52,98,31,115,23,71,19,25,20" href="#" title="huyện bình chánh">
+</map>
+<a href="đường dẫn"></a>
 </body>
 </html>
