@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+      <head>
+            <meta charset="utf-8">
+            <title>Tiêu đề Website</title>
+      </head>
+      <body>
+            <h1><p> bai viet 1 </p>&nbsp;</h1>
+            <marquee>Hello</marquee>
+            <p>bai viet 2
+            <br>bai viet 3
+            </p>
+            <p>&lt;Hello&gt;</p>
+            <pre> bai
+             viet 1</pre>
+            <!--Noi dung chu thich-->
+            <!--<p>noi dung an coment</p>-->
+            <div> </div>
+            <b><i>đoạn văn</i></b>
+            <p><u>đoạn văn 4</u></p><br>
+            <p><del> đoạn văn 5<br><br></p>
+            <p>X<sup>3</sup><sub>1</sub>+X<sup>5</sup><sub>2</sub>=10            </p>
+            <p align='center'>Đoạn văn</p>
+            <p><mark> Đoạn văn 5</mark></p>
+            <p><marquee direction="4"> Hello thọ </marquee></p>
+            <p><marquee scrollamount='50'>Hello tho </marquee></p>
+            <p><marquee sendldelay='1'> Hello tho 1</marquee></p>
+            <p><u>Bai so 2</u> </p>
+            <p><marquee>Chào mừng bạn đã ghé thăm lần 2</marquee></p>
+            <p>&copy;ATM</p>
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+                <li>PHP</li>
+                <li>MySQL</li>
+            </ol>
+             <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+                <li>PHP</li>
+                <li>MySQL</li>
+            </ul>
+            
+</body>
+</html>
