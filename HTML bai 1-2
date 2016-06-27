@@ -83,5 +83,42 @@
   <area shape="poly" coords="32,486,153,487,172,385,158,322,143,223,118,161,95,118,79,81,73,52,98,31,115,23,71,19,25,20" href="#" title="huyện bình chánh">
 </map>
 <a href="đường dẫn"></a>
+-------
+<!--<embed src="media/requestProcess.pdf" width="300" height="600"></embed>
+<embed src="media/BSTu_180x300.swf" width="180" height="300"></embed>
+<embed src="media/BSTu_180x300.swf" scale="exactfit" width="300" height="300"></embed>
+<embed src="media/cafe_townsend_home.flv"></embed>
+<embed src="media/baihat.mp3"></embed>-->
+<!--    <video controls play>
+        <source src="media/mov_bbb.mp4">
+        <source src="media/mov_bbb.ogg">
+    </video>
+    <audio controls><source src="media/baihat.mp3"></audio>
+    <video autoplay>
+    <source src="media/mov_bbb.mp4"></video>
+<iframe src="http://vnexpress.vn" width="500" height="800" ></iframe>-->
+<table border="1" width="400">
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+    </tr>
+     <tr>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+    </tr>
+     <tr>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+    </tr>
+     <tr>
+        <td>10</td>
+        <td>11</td>
+        <td>12</td>
+    </tr>
+</table>
+--------
 </body>
 </html>
