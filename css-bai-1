@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+/* the id */
+#pass{
+	background:#090;
+}
+/* the tag*/
+p{
+color:#0F0; font-size:16px;
+}
+/* the class*/
+.mau-do{
+	color: #F00;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+/* the id */
+#mau-do-do{
+color:#C00; font-size:24px	
+}
+/* the id */
+#repass{
+	background-color:#03C;
+}
+
+
+body{
+	background-image: url(../Hydrangeas.jpg);
+	background-attachment: fixed;		
+}
+head{
+	word-spacing: 80px;
+	letter-spacing: normal;
+	text-align: left;
+	display: none;
+}
