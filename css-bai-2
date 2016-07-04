@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;	
+}
+#header{
+height:100px;
+background:#CC3;
+}
+#menu{
+height:40px;
+background:#9C0;
+}
+#left{
+	height:400px;
+	width:200px;
+	float:left;
+	background:#990;
+}
+#main{
+height:400px;
+width:600px;
+background:#999;
+float:left;
+overflow:auto;
+box-sizing:border-box;
+padding:20px;
+}
+#right{
+height:400px;
+background:#990;
+width:200px;
+float:left;
+}
+#fooder{
+height:80px;
+background:#0F0;
+clear:both;	
+}
+#warpper{
+width:1000px;	
+}
+ul{
+list-style:none;	
+}
+li{
+float:left;
+margin:10px 40px;	
+}
+img{
+float:right	
+}
+img:hover{
+border:5px solid #F00;
+border-radius:5px;
+}
+a{
+text-decoration:none;
+color:#00F;	
+}
+a:hover{
+color:#F00;
+text-decoration:underline;	
+}
+	
+}
+</style>
+</head>
+<body>
+    <div id="warpper">
+        <div id="header">
+        <p>Wellcome Viet Nam</p>
+        </div>
+        <div id="menu">
+        <ul>
+        <li><a href="vnexpress.vn">trang chu</a></li>
+        <li><a href="vnexpress.vn">Gioi thieu</a></li>
+        <li><a href="vnexpress.vn">Thong tin</a></li>
+        <li><a href="vnexpress.vn">Lien he</a></li>
+        </ul>
+        </div>
+        <div id="left">left</div>
+        <div id="main">
+        <img alt="hinh-1" align="left" src="hinh-1.jpg" width="100">
+        <p>
+        Công suất thiết kế nhà ga cảng hàng không Tân Sơn Nhất hiện đáp ứng phục vụ 23 triệu hành khách mỗi năm, riêng nhà ga quốc nội là 13 triệu. Trong khi đó, ông Đặng Tuấn Tú cho biết, hiện sản lượng hành khách nội địa thông qua Tân Sơn Nhất trong năm 2015 là hơn 16 triệu và dự kiến năm 2016 sẽ đạt 19,8 triệu.<br>
+
+Ngoài ra, do số lượng chuyến bay tăng cao, tập trung vào khung giờ cao điểm nên lượng hành khách thông qua cảng rất lớn. Từ 16/6 đến 22/6, tần suất bay trung bình đạt 630 lượt chuyến trong ngày, ngày cao điểm nhất lên đến 663 lượt. <br>
+
+Dự báo tần suất bay ngày cao điểm hè 2016 sẽ đạt hơn 750 lượt chuyến bay, cao hơn ngày cao điểm dịp Tết Nguyên Đán vừa qua. <br>
+Công suất thiết kế nhà ga cảng hàng không Tân Sơn Nhất hiện đáp ứng phục vụ 23 triệu hành khách mỗi năm, riêng nhà ga quốc nội là 13 triệu. Trong khi đó, ông Đặng Tuấn Tú cho biết, hiện sản lượng hành khách nội địa thông qua Tân Sơn Nhất trong năm 2015 là hơn 16 triệu và dự kiến năm 2016 sẽ đạt 19,8 triệu.<br>
+
+Ngoài ra, do số lượng chuyến bay tăng cao, tập trung vào khung giờ cao điểm nên lượng hành khách thông qua cảng rất lớn. Từ 16/6 đến 22/6, tần suất bay trung bình đạt 630 lượt chuyến trong ngày, ngày cao điểm nhất lên đến 663 lượt. <br>
+
+Dự báo tần suất bay ngày cao điểm hè 2016 sẽ đạt hơn 750 lượt chuyến bay, cao hơn ngày cao điểm dịp Tết Nguyên Đán vừa qua. </p>
+<p>
+        Công suất thiết kế nhà ga cảng hàng không Tân Sơn Nhất hiện đáp ứng phục vụ 23 triệu hành khách mỗi năm, riêng nhà ga quốc nội là 13 triệu. Trong khi đó, ông Đặng Tuấn Tú cho biết, hiện sản lượng hành khách nội địa thông qua Tân Sơn Nhất trong năm 2015 là hơn 16 triệu và dự kiến năm 2016 sẽ đạt 19,8 triệu.<br>
+
+Ngoài ra, do số lượng chuyến bay tăng cao, tập trung vào khung giờ cao điểm nên lượng hành khách thông qua cảng rất lớn. Từ 16/6 đến 22/6, tần suất bay trung bình đạt 630 lượt chuyến trong ngày, ngày cao điểm nhất lên đến 663 lượt. <br>
+
+Dự báo tần suất bay ngày cao điểm hè 2016 sẽ đạt hơn 750 lượt chuyến bay, cao hơn ngày cao điểm dịp Tết Nguyên Đán vừa qua. <br>
+Công suất thiết kế nhà ga cảng hàng không Tân Sơn Nhất hiện đáp ứng phục vụ 23 triệu hành khách mỗi năm, riêng nhà ga quốc nội là 13 triệu. Trong khi đó, ông Đặng Tuấn Tú cho biết, hiện sản lượng hành khách nội địa thông qua Tân Sơn Nhất trong năm 2015 là hơn 16 triệu và dự kiến năm 2016 sẽ đạt 19,8 triệu.<br>
+
+Ngoài ra, do số lượng chuyến bay tăng cao, tập trung vào khung giờ cao điểm nên lượng hành khách thông qua cảng rất lớn. Từ 16/6 đến 22/6, tần suất bay trung bình đạt 630 lượt chuyến trong ngày, ngày cao điểm nhất lên đến 663 lượt. <br>
+
+Dự báo tần suất bay ngày cao điểm hè 2016 sẽ đạt hơn 750 lượt chuyến bay, cao hơn ngày cao điểm dịp Tết Nguyên Đán vừa qua. </p>
+        </div>
+        <div id="right"> right</div>
+        <div id="fooder"> footder</div>
+        
+    </div>
+</body>
+</html>
