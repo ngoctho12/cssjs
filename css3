@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+overflow:auto	
+}
+#header{
+height:100px;
+background:#06C;
+}
+#menu{
+height:40px;
+background:#090;
+margin:5px 0px;	
+}
+#left{
+height:400px;
+width:200px;
+background:#09C;
+float:left;
+margin-right:5px	
+}
+#main{
+height:400px;
+width:795px;
+background:#993;
+float:left;	
+}
+#footer{
+height:80px;
+background:#9F9;
+clear:both;
+margin-top:5px;	
+}
+#warpper{
+width:1000px;
+margin:auto;	
+}
+.clearfix{
+clear:both;	
+}
+h1.mau-do{
+color:#F00;	
+}
+ul{
+list-style:none;	
+}
+li{
+float:left;
+margin:10px 50px;	
+}
+a{
+	text-decoration:none;
+	color:#FF0;
+}
+a:hover
+{
+color:#F00;
+}
+img:hover
+{
+border:5px solid #F00;
+border-radius:3px;	
+}
+
+#left .mau-do img
+{
+border:#F00 5px solid;	
+}
+#mau-xanh{
+color:#00F;
+}
+.mau-do{
+color:#F00;	
+}
+.san-pham{
+border:1px #0000FF solid;
+width:186px;
+text-align:center;
+float:left;
+margin:5px;	
+}
+.san-pham h3{
+color:#03F;
+margin:5px 0;	
+}
+.san-pham{
+opacity:1;	
+}
+</style>
+</head>
+<body>
+<div id="warpper">
+<div id="header">
+<input type="user" id="user" name="user" placeholder="ten-dang-nhap"
+<input type="password" id="pass" name="pass" placeholder="mat khau">
+<button>login</button>
+</div>
+<div id="menu">
+<ul>
+<li><a href="vnexpress.vn">Trang chu</a></li>
+<li><a href="tuoitre.vn">Gioi thieu</a></li>
+<li><a href="baomoi.vn">Noi dung</a></li>
+<li><a href="vnexpress.vn"></a></li>
+</ul>
+</div>
+<div id="left">
+<p class="mau-do">Cuối tháng 7 sẽ công bố 'biển miền Trung an toàn hay chưa</p>
+<p>Nhóm nhà khoa học đang tiếp tục khảo sát, đo đạc các mặt cắt ở vùng biển 4 tỉnh miền Trung, theo dõi sự hấp thụ và biến thiên của các độc tố để trả lời biển an toàn hay chưa và đưa ra các phương án xử lý ô nhiễm. </p>
+<p class="mau-do"><img src="http://img.f29.vnecdn.net/2016/07/06/cachet1-5547-1467799580.jpg" alt="ca chet" width="150"</p></p>
+</div>
+<div id="main">
+<h1 class="mau-do" id="mau-xanh">ca chet mien trung</h1>
+<p class="mau-do">Tiến sĩ Vũ Đức Lợi - Phó chủ tịch Hội đồng khoa học quốc gia tìm nguyên nhân cá chết hàng loạt ở miền Trung cho biết, để xác định hàm lượng độc tố phenol hay xyanua còn tồn dư bao nhiêu, phân hủy ra sao và chuyển hóa thành chất gì, nhà nghiên cứu đã lặn xuống biển thực hiện khảo sát, lẫy mẫu trầm tích.</p>
+
+<p>Nhóm nghiên cứu cũng thực hiện đo đạc 13 mặt cắt từ biển Vũng Áng (Hà Tĩnh) đến Thừa Thiên Huế ở các thời điểm khác nhau. Các dữ liệu đang được phân tích trong phòng thí nghiệm. "Khoảng cuối tháng 7, Hội đồng sẽ công bố kết quả và đây sẽ là cơ sở các nhà quản lý và khoa học trả lời khi nào biển an toàn và đưa ra các phương án khắc phục môi trường biển", ông Lợi thông tin.</p>
+
+<p>Bên cạnh đánh giá mức độ ô nhiễm, theo tiến sĩ Tô Văn Trường, chuyên gia độc lập tài nguyên nước và môi trường, Việt Nam cần khảo sát mức độ bị hủy hoại môi trường biển 4 tỉnh miền Trung. Việc này sẽ giúp nhà quản lý hoạch định kế hoạch sát thực nhất, như nơi nào có thể để môi trường tự làm sạch và tự phục hồi, vùng nào cần sự hỗ trợ của con người và khu vực nào hoàn toàn phải phục hồi nhân tạo, không thể chỗ nào cũng "làm sạch biển, trồng san hô".</p>
+<div class="san-pham">
+	<div>
+    <h3>ca map</h3>
+    <img src="http://mediad.publicbroadcasting.net/p/wcai/files/styles/x_large/public/201601/fish-robot.jpg" width="150" alt="ca map">
+   <button>Mua ngay</button>
+    </div>
+ </div>
+ <div class="san-pham">
+	<div>
+    <h3>ca map</h3>
+    <img src="http://mediad.publicbroadcasting.net/p/wcai/files/styles/x_large/public/201601/fish-robot.jpg" width="150" alt="ca map">
+   <button>Mua ngay</button>
+    </div>
+ </div>   
+<div class="san-pham">
+	<div>
+    <h3>ca map</h3>
+    <img src="http://mediad.publicbroadcasting.net/p/wcai/files/styles/x_large/public/201601/fish-robot.jpg" width="150" alt="ca map">
+   <button>Mua ngay</button>
+    </div>
+ </div>
+
+</div>
+<br class="clearfix">
+<div id="footer"></div>
+</div>
+
+</body>
+</html>
