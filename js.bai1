@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script src="js/main.js"></script>
+<script>
+	/*
+	var a,b,c;
+	a=8;
+	b=10.134;
+	c="Hello world";
+	d=new Date();
+	//alert(b);
+	
+	b=a%5;
+	
+	c=a++;//a=a+1
+	
+	d='Hello '+5+' World';
+	
+	alert(d);
+	*/
+	
+	//Cau lenh if
+	
+	/*
+	var dtb=9;
+	
+	if(dtb<5) alert('Rot');
+	if(dtb>=5) alert('Dau');
+	
+	if(dtb<5) alert('Rot');
+	else alert('Dau');
+	
+	var thang=7;
+	if(thang>=1 && thang <4)alert('Quy 1');
+	if(thang>3 && thang <7)alert('Quy 2');
+	if(thang>6 && thang <10)alert('Quy 3');
+	if(thang>9 && thang <=12)alert('Quy 4');
+	
+	if(thang<4)alert('Quy 1');
+	else if(thang<7)alert('Quy 2');
+	else if(thang<10)alert('Quy 3');
+	else alert('Quy 4');
+	*/
+	
+	//Cau lenh switch...case
+	/*
+	var thang=-100;
+	switch(thang)
+	{
+		case 1:
+		case 2:
+		case 3:alert('Quy 1');break;
+		case 4:
+		case 5:
+		case 6:alert('Quy 2');break;
+		case 7:
+		case 8:
+		case 9:alert('Quy 3');break;
+		case 10:
+		case 11:
+		case 12:alert('Quy 4');break;
+		default:alert('Thang khong hop le');
+	}
+	*/
+	
+	//Lenh lap for
+	
+	for(i=1;i<7;i++)
+	document.writeln('<h'+i+'> Tieu de cap '+i+'</h'+i+'>');
+	
+	
+	
+</script>
+</head>
+
+<body>
+<p onClick="sayHi()">Doan van 1</p>
+<p onMouseOver="">Doan van 2</p>
+</body>
+</html>
