@@ -68,15 +68,19 @@
 	
 	//Lenh lap for
 	
+	/*
 	for(i=1;i<7;i++)
 	document.writeln('<h'+i+'> Tieu de cap '+i+'</h'+i+'>');
+	*/
 	
-	
+	for(i=0;i<30;i++)
+	document.write('<img src="http://opi.yahoo.com/online?u=NickCuaBan&t='+i+'">');
 	
 </script>
 </head>
 
 <body>
+
 <p onClick="sayHi()">Doan van 1</p>
 <p onMouseOver="">Doan van 2</p>
 </body>
