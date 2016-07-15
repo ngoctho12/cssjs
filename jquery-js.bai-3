@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script src="js/jquery-3.1.0.min.js"></script>
+<style>
+#d1,#d2
+{
+	width:400px;
+	height:300px;
+	background-color:#FF0;
+	/*transition:all 0.5s 0s linear;*/
+}
+</style>
+<script>
+	//$('#d1').css({'border':'5px solid red','background-color':'green'});
+	/*
+	window.onload=function()
+	{
+		$('#d1').css('height','400px');
+	}
+	*/
+	function anHien(){
+		$('div:last-child').fadeToggle(2000);
+		$('div:last-child').html('<h1>Tieu de cap 1</h1>');
+	}
+	
+	function khoiTao() {
+        //$('#d1').css('height','400px');
+		$('#bt').click(anHien)
+		
+    }
+	
+	$(document).ready(khoiTao);
+</script>
+</head>
+
+<body>
+<div>
+<div id="d1">The div 1</div>
+<hr>
+<div id="d2">The div 2</div>
+</div>
+<input id="bt" type="button" value="Click me">
+
+</body>
+</html>
