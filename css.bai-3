@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style>
+#d1
+{
+	width:400px;
+	height:300px;
+	background-color:#FF0;
+	/*transition:all 0.5s 0s linear;*/
+}
+</style>
+<script>
+
+//setTimeout(changeDiv,3000);//3000 miliseconds
+//idTimer=setInterval(changeDiv2,10);
+
+function changeDiv()
+{
+	var i=300;
+	var a=document.getElementById('d1');
+	for(;i>=0;i--)
+	a.style.height=i+'px';	
+}
+h=300;
+function changeDiv2()
+{	
+	var a=document.getElementById('d1');
+	a.style.height=h+'px';
+	h--;
+	if(h<0)clearInterval(idTimer);
+}
+
+function changeDiv3()//Đệ quy
+{
+	var a=document.getElementById('d1');
+	a.style.height=h+'px';
+	h--;
+	if(h>=0)setTimeout(changeDiv3,10);
+}
+
+
+
+</script>
+<script>
+	
+	window.onload=function()
+	{
+		//alert('ok');
+		var b=document.getElementById('bt');
+		b.onclick=changeDiv;
+		changeDiv3();
+	};
+	
+	
+</script>
+</head>
+
+<body>
+<div id="d1">The div </div>
+<input id="bt" type="button" value="Click me">
+
+</body>
+</html>
