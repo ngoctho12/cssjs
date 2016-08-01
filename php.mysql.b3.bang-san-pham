@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style>
+.hien
+{
+	color:blue;
+}
+.an
+{
+	color:red;
+	font-weight:bold;
+	background-color:yellow;
+	display:block;
+}
+
+</style>
+</head>
+
+<body>
+<?php
+	error_reporting(E_ALL);//Develop
+	
+	//error_reporting(0);//Product
+	
+	//Ket noi den MySQL
+	$link=mysqli_connect('localhost','root','','shop') or die('Lỗi kết nối');
+	//Dong bo charset (collation) => hiện thị tiếng Việt
+	mysqli_query($link,'set names utf8');
+	
+	//Truy van
+	$sql='SELECT  `idLoai` ,  `TenSP` ,  `Gia` ,  `UrlHinh` ,  `TonKho` ,  `AnHien` 
+FROM  `nn_sanpham` 
+LIMIT 0 , 30';
+
+
+	$rs=mysqli_query($link,$sql);
+	
+	/*
+	//Lay 1 dong du lieu trong $rs
+	$r=mysqli_fetch_assoc($rs);
+	
+	//Lay 1 cot du lieu cua dong du lieu
+	echo $r['TenCL'];
+	*/
+	/*
+	while($r=mysqli_fetch_assoc($rs))
+	{
+		echo $r['TenCL'],'<hr>';
+	}
+	*/
+	
+?>
+
+<table width="1000" border="1" cellpadding="5">
+  <caption>
+    DANH SÁCH SAN PHAM
+  </caption>
+ <tr>
+    <th width="50" scope="col">STT</th>
+    <th width="242" scope="col">Loai</th>
+    <th width="179" scope="col">Ten</th>
+    <th width="130" scope="col">Gia</th>
+    <th width="149" scope="col">Hinh</th>
+    <th width="80" scope="col">Ton kho</th>
+    <th width="68" scope="col">An/Hien</th>
+  </tr>
+  <?php
+  	$i=1;
+  	while($r=mysqli_fetch_assoc($rs))
+	{
+  ?>
+      <tr>
+        <td align="center"><?php echo $i++; ?></td>
+        <td align="left"><?php echo $r['idLoai'] ?></td>
+        <td align="left"><?php echo $r['TenSP'] ?></td>
+        <td align="right"><?php echo number_format($r['Gia'],0) ?></td>
+        <td align="center"><img src="img/sanpham/<?php echo $r['UrlHinh'] ?>" alt="anh"></td>
+        <td align="center"><?php echo $r['TonKho'] ?></td>
+        <td align="center"><?php echo $r['AnHien'] ?></td>
+  </tr>
+  <?php
+	}
+  ?>
+</table>
+	
+</body>
+</html>
