@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style>
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+#wrapper
+{
+	width:1000px;
+	margin:auto;
+}
+
+#header
+{
+	height:100px;
+	background-color:#09C;
+}
+#menu
+{
+	height:40px;
+	background-color:#FC9;
+	margin:5px 0px;
+}
+#left
+{
+	width:200px;
+	min-height:600px;
+	background-color:#C9C;
+	float:left;
+}
+#main
+{	
+	width:795px;
+	min-height:400px;
+	background-color:#CCC;
+	float:left;
+	margin-left:5px;
+	
+}
+#footer
+{
+	height:80px;
+	background-color:#09C;
+	margin-top:5px;
+}
+.clearfix
+{
+	clear:both;
+}
+/* Dinh dang form dang ky */
+.dang-ky table
+{
+	width:500px;
+	margin:auto;
+	border-collapse:collapse;
+}
+.dang-ky table td, .dang-ky table th
+{
+	padding:5px;
+}
+.dang-ky table caption
+{
+	margin:15px auto;
+	color:blue;
+	font-size:20px;
+	font-weight:bold;
+}
+.dang-ky input[type="text"], .dang-ky textarea
+{
+	font-size:16px;
+	width:300px;
+}
+.san-pham{
+border:1px #0000FF solid;
+width:180px;
+height:250px;
+text-align:center;
+float:left;
+margin:5px;
+border-radius:10px;
+background-color:#FFF;
+positon:relative;
+}
+.san-pham h3{
+color:#03F;
+margin:5px 0;	
+}
+.san-pham b{
+color:#F00;
+margin:5px 0;	
+}
+.san-pham{
+opacity:1;	
+}
+img:hover
+{
+border:5px solid #F00;
+border-radius:5px;	
+}
+button:hover
+{
+	border:5px solid #FF0;
+	border-radius:5px;
+}
+</style>
+</head>
+
+<body>
+<?php
+	error_reporting(E_ALL);//Develop
+	
+	//error_reporting(0);//Product
+	
+	//Ket noi den MySQL
+	$link=mysqli_connect('localhost','root','','shop') or die('Lỗi kết nối');
+	//Dong bo charset (collation) => hiện thị tiếng Việt
+	mysqli_query($link,'set names utf8');
+	
+	//Truy van
+	$sql='SELECT  `idLoai` ,  `TenSP` ,  `Gia` ,  `UrlHinh` ,  `TonKho` ,  `AnHien` 
+FROM  `nn_sanpham` 
+LIMIT 0 , 30';
+
+
+	$rs=mysqli_query($link,$sql);
+	
+	/*
+	//Lay 1 dong du lieu trong $rs
+	$r=mysqli_fetch_assoc($rs);
+	
+	//Lay 1 cot du lieu cua dong du lieu
+	echo $r['TenCL'];
+	*/
+	/*
+	while($r=mysqli_fetch_assoc($rs))
+	{
+		echo $r['TenCL'],'<hr>';
+	}
+	*/
+	
+?>
+	<div id="wrapper">
+        <div id="header">header</div>
+        <div id="menu">menu</div>
+        <div id="left"> Left        	
+        </div>
+        <div id="main">
+        <?php
+  	while($r=mysqli_fetch_assoc($rs))
+	{
+  ?>
+        <div class="san-pham">
+    
+	<div>
+    <h3><?php echo $r['TenSP'] ?></h3>
+    <img src="img/sanpham/<?php echo $r['UrlHinh'] ?>" alt="anh"><br />
+    <b><?php echo number_format($r['Gia'],0) ?></b><br />
+   <button>Mua ngay</button>
+    </div>  
+    </div>
+    <?php 
+	}
+		?>
+    <div class="clearfix"></div>
+    <div id="footer">footer</div>
+</body>
+</html>
